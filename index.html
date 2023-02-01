@@ -1,0 +1,74 @@
+<title>Predicting Regions of Climate Change-Induced Drought</title>>
+
+<body>
+<center><h1>Predicting Regions of Climate Change-Induced Drought</h1></center>
+<center><h3>Ryan O'Hara</h3></center>
+<hr>
+<center><h2>Project Description</h2></center>
+
+Much of modern climate change research is built on Earth system models 
+(ESMs), bottom-up simulations of future climate activity based on the 
+laws of physics and other physical boundary conditions. These models are essential to
+creating environmental policy and climate-resilient infrastructure; if we cannot predict 
+the ways in which climate change will impact different regions of the world, then we will 
+be unable to protect those who will be impacted. However, despite their importance and 
+heavy use, these models suffer from significant forecast inaccuracies and often struggle 
+to adequately predict the speed at which climate change is impacting the modern world 
+(which, in turn, could delay human adaptation to this crisis). [1]
+
+Fortunately, the AI industry has begun to develop solutions. In recent years, 
+climate scientists have begun to adapt deep neural networks (DNNs) in order to more 
+efficiently synthesize large climatic datasets and, in turn, accurately predict the 
+environmental consequences of climate change. Many industry experts hope that DNNs will be 
+able to approach climate modeling from the top-down, rather than the ground-up, which will 
+make them more capable of adapting to the novel environmental conditions brought about by 
+climate change and more able to utilize large modern atmospheric datasets to analyze climate 
+trends. [2] One recent project, for instance, trained a DNN on global temperature data and 
+then used the system to forecast near-future temperature dynamics. They discovered that 
+their model was able to accurately predict temperature changes when fed test data from the 
+previous century and suggest that this tool can be a reliable supplement to cover the blind 
+spots of ESMs. [3]
+
+This project, which hopes to develop a neural network capable of predicting regions that will 
+be impacted by drought, was motivated by these recent research successes. More specifically, I hope 
+to produce a neural network that can take in several environmental datapoints (e.g. rainfall, temperature)
+and accurately predict whether the described region is at risk of experiencing a near-future drought. Much 
+of this project will likely be spent training the model with previous environmental data labeled as from a 
+drought-impacted region of not. Several similar projects have been completed and, despite differences in the 
+trained datasets and outputs, I'd expect to use that research as the foundation that this project builds 
+upon. [3, 4] If successful, I'd hope to publish a conference paper (or similar) with this project.
+
+<hr>
+<center><h2>Project Goals</h2></center>
+<ol>
+    <li> Develop a DNN and utilize supervised learning to train it on a dataset consisting of vectors 
+        containing environmental information (long-term rainfall, recent temperatures, etc.) and a label 
+        determining whether or not that data was collected from a region experiencing drought.
+    <li> Test the above DNN and, ultimately, develop a model capable of providing reasonably accurate predictions 
+        about a region's risk of drought.
+    <li> If our initial work is successful, increase the model's complexity by introducing additional inputs or 
+        increasing the training datasize to result in a more accurate system.
+    <li> In the longer term (and, again, assuming some degree of success), produce a paper outlining our work.
+</ol>
+<hr>
+<center><h2>Sources</h2></center>
+
+[1] Intergovernmental Panel on Climate Change (2013). “Climate change 2013: the 
+physical science basis,” in Contribution of Working Group I to the Fifth 
+Assessment Report of the Intergovernmental Panel on Climate Change, eds T. F. 
+Stocker, D. Qin, G. K. Plattner, M. Tignor, S. K. Allen, J. Boschung, et al. 
+(Cambridge; New York, NY: Cambridge University Press), 1535.
+
+[2] Gentine, P., Pritchard, M., Rasp, S., Reinaudi, G., and Yacalis, G. (2018). 
+Could machine learning break the convection parameterization deadlock? Geophys. Res. 
+Lett. 45, 5742–5751. doi: 10.1029/2018GL078202
+
+[3] Ise T and Oba Y (2019) Forecasting Climatic Trends Using Neural Networks: An 
+Experimental Study Using Global Historical Data. Front. Robot. AI 6:32. 
+doi: 10.3389/frobt.2019.00032
+
+[4] Boulanger J and Martinez F (2006) Projection of future climate change conditions using IPCC
+simulations, neural networks and Bayesian statistics. Part 2: Precipitation mean state and seasonal 
+cycle in South America. doi: 10.1007/s00382-006-0182-0
+
+</body>
